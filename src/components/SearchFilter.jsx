@@ -2,10 +2,12 @@ import React from "react";
 
 const SearchFilter = ({ searchTerm, setSearchTerm, filters, setFilters }) => {
   return (
-    <div>
+    <div className="filter-section">
       {/* Search by City Name */}
+      <label htmlFor="city-search">City Name:</label>
       <input
         type="text"
+        id="city-search"
         placeholder="Search by city name..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}

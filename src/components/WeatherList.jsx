@@ -2,7 +2,7 @@ import React from "react";
 
 const WeatherList = ({ data }) => {
   return (
-    <div>
+    <div className="weather-list">
       <h2>Weather Data</h2>
       <ul>
         {data.map((item) => (

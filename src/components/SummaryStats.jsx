@@ -6,7 +6,7 @@ const SummaryStats = ({ data }) => {
   const highestWindSpeed = Math.max(...data.map((item) => item.wind_spd));
 
   return (
-    <div>
+    <div className="summary-stats">
       <h2>Summary Statistics</h2>
       <p>Total Cities: {totalCities}</p>
       <p>Average Temperature: {avgTemp.toFixed(2)}°C</p>
