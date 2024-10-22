@@ -40,3 +40,90 @@
 .read-the-docs {
   color: #888;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="range"] {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+
+.weather-list {
+  margin-top: 20px;
+}
+
+.weather-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.weather-list li {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-stats {
+  background-color: #007acc;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.summary-stats p {
+  margin: 10px 0;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="range"]:focus {
+  outline: none;
+  border-color: #007acc;
+}
